@@ -1,0 +1,973 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+a {
+  text-decoration: none;
+}
+/* =================== back to top part start ==================== */
+.back_to_top i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe169;
+  line-height: 40px;
+  position: fixed;
+  text-align: center;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  color: #2c2c2c;
+  z-index: 1000;
+  cursor: pointer;
+}
+/* =================== back to top part end ==================== */
+/* =================== navber part start ==================== */
+
+.nv_menu ul li {
+  padding: 10px 40px;
+}
+
+nav {
+  border-bottom: 1px solid #d6d3cc;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nv_menu ul li a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  position: relative;
+}
+.nv_menu ul li a:hover {
+  color: #ffe169;
+}
+.nev_btn a {
+  color: #000;
+  padding: 10px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  border-radius: 5px;
+}
+.nev_btn a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+}
+/* =============== navber part   end =============== */
+/* =============== banner part start =============== */
+#banner-part .banner {
+  padding: 400px 0;
+  background: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner_text {
+  text-align: center;
+}
+.banner_text h2 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner_text h1 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner_text h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.banner_text h1 {
+  margin: 0px 360px;
+  align-items: center;
+  width: 570px;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+#banner-part .prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+#banner-part .next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* =============== banner part   end =============== */
+/* =============== date part start =============== */
+
+#data_main {
+  margin: 100px 0;
+}
+
+.date_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.date img {
+  margin: 0px 60px;
+}
+.date h3 {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.date_text h1 {
+  width: 350px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.date_text p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.icon_main i {
+  font-size: 80px;
+  margin: 0px 25px;
+  color: #ffe169;
+}
+.icon_main h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* =============== date part   end =============== */
+/* =============== table part start =============== */
+
+#table {
+  background: url(../images/table_bagraond_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+
+.table_header {
+  text-align: center;
+  color: #fff;
+}
+.table_header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.table_header h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.table_item {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+}
+.table_image {
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+}
+.table_image img {
+  width: 100%;
+  height: 100%;
+}
+.table_text {
+  width: 100%;
+  height: 200px;
+  color: #fff;
+}
+.table_text a {
+  border-radius: 5px;
+  padding: 0px 10px;
+  background-color: #000;
+  color: #ffe169;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.table_text h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.table_text h3 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.table_icon {
+  width: 400px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  top: 135px;
+  left: 150px;
+}
+.t_text h3 {
+  color: #0f2f44;
+  padding: 5px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.t_icon {
+  width: 100%;
+  text-align: center;
+}
+.t_icon i {
+  font-size: 25px;
+  padding: 10px;
+  color: #999999;
+  transition: all linear 0.3s;
+}
+.t_icon i:hover {
+  color: #0f2f44;
+}
+/* =============== table part   end =============== */
+/* =============== event part start =============== */
+#event {
+  margin: 100px 0;
+  background-color: #fefefe;
+}
+.event_item {
+  margin: 20px 0;
+  width: 100%;
+  height: 220px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 0;
+  transition: all linear 0.3s;
+  box-shadow: 2px 2px 1px 1px rgb(0, 0, 0, 0.4);
+}
+.event_item:hover {
+  background-color: #0f2f44;
+  color: #fff;
+}
+.event_header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.event_header h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.event_header h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.event_image {
+  width: 100%;
+  height: 200px;
+}
+.event_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.event_text {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.event_text h1 {
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.e_icon {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+.e_icon_two {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+.e_text {
+  margin: 30px 80px;
+  width: 200px;
+  height: 50px;
+}
+.e_text_two {
+  margin: -80px 380px;
+  width: 200px;
+  height: 50px;
+}
+.e_text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.e_text_two h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.e_icon i {
+  font-size: 40px;
+  margin: 10px 20px;
+  color: #ffe169;
+  transition: all linear 0.3s;
+}
+.e_icon i:hover {
+  color: #a8bfce;
+}
+.e_icon_two i {
+  font-size: 40px;
+  margin: 12px 315px;
+  color: #ffe169;
+  transition: all linear 0.3s;
+}
+.e_icon_two i:hover {
+  color: #dbe5ec;
+}
+.e_icon a {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.e_icon_two a {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.event_btn {
+  width: 100%;
+  height: 200px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.event_btn a {
+  color: #0f2f44;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  /* css text gradiant start */
+  /* background: -webkit-linear-gradient(90deg, rgba(255,225,104,1) 0%, rgba(255,199,65,1) 34%, rgba(255,191,52,1) 55%, rgba(255,170,20,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  /* css text gradiant end */
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.event_btn a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+}
+/* =============== event part   end =============== */
+/* ===================  gallery part start  ==================== */
+
+#gallery {
+  margin: 100px 0;
+  position: relative;
+}
+.gallery_main {
+  display: flex;
+}
+.gallery_images {
+  width: 100%;
+}
+#gallery .next {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  line-height: 40px;
+  transition: all linear 0.3s;
+}
+#gallery .next:hover {
+  color: #f5f5f5;
+}
+#gallery .prev {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  line-height: 40px;
+}
+#gallery .prev:hover {
+  color: #f5f5f5;
+}
+
+.gallery_header {
+  text-align: center;
+}
+.gallery_header h2 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.gallery_header h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.gallery_image {
+  width: 100%;
+  height: 300px;
+}
+.gallery_image img {
+  width: 100%;
+  height: 100%;
+}
+.gallery_btn {
+  margin: 30px 0;
+  text-align: center;
+}
+.gallery_btn a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+}
+.gallery_btn a {
+  padding: 10px 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  color: #000;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* ===================  gallery part end  ==================== */
+/* ===================  feedback part start  ==================== */
+
+#feedback {
+  margin: 100px 0;
+  position: relative;
+}
+#feedback .feed_next {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  line-height: 60px;
+  transition: all linear 0.3s;
+}
+#feedback .feed_next:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 100%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 225, 104, 1) 100%
+  );
+  color: #f5f5f5;
+}
+#feedback .feed_prev {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  line-height: 60px;
+  transition: all linear 0.3s;
+}
+#feedback .feed_prev:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 100%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 225, 104, 1) 100%
+  );
+  color: #f5f5f5;
+}
+.feedback_header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.feedback_header h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.feedback_header h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.feedback_item {
+  border-radius: 5px;
+  text-align: center;
+  width: 570px;
+  height: 515px;
+  background-color: #d6d3cc;
+}
+.feedback_image {
+  margin: -20px 180px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.feedback_image img {
+  width: 100%;
+  height: 100%;
+}
+.feedback_item h1 {
+  padding: 40px 40px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.feedback_item h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.feedback_item h3 {
+  color: #999999;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.feedback_icon {
+  position: absolute;
+  bottom: 40px;
+  right: -80px;
+  width: 150px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.feedback_icon i {
+  margin-top: 5px;
+  color: #ffe169;
+}
+
+/* ===================  feedback part   end  ==================== */
+/* ===================  price part start  ==================== */
+
+.price_header {
+  text-align: center;
+  margin: 80px;
+}
+.price_header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_header h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_item_image {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background: url(../images/price_item.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all linear 0.3s;
+}
+.price_item_image:hover {
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.price_item_image h1 {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_item_image h2 {
+  padding-top: 20px;
+  color: #ffe169;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_item_image h3 {
+  width: 100px;
+  margin: 20px 0px 0px 150px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_item_text {
+  width: 100%;
+  transition: all linear 0.3s;
+}
+.price_item_text:hover {
+  border-radius: 10px;
+  padding: 10px 10px 20px 20px;
+  box-shadow: 2px 2px 4px 4px rgb(0, 0, 0, 0.4);
+}
+.price_item_text h1 {
+  width: 300px;
+  color: #ffe169;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.price_btn {
+  width: 100% !important;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+}
+.price_btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+}
+.form-check-input {
+  background-color: #fff !important;
+  border: 1px solid rgb(202, 202, 202) !important;
+  box-shadow: none !important;
+}
+.form-check-input:focus {
+  background-color: yellow !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  border-color: none !important ;
+  border: none !important;
+}
+
+form {
+  width: 100%;
+  height: 370px;
+}
+/* ===================  price part   end  ==================== */
+/* ===================  sponsor part start  ==================== */
+
+.sponsor_header {
+  text-align: center;
+  margin: 80px;
+}
+.sponsor_header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.sponsor_header h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.sponsor_item {
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  width: 100%;
+  height: 100px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.4);
+}
+.sponsor_item:hover {
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.4);
+}
+/* ===================  sponsor part   end  ==================== */
+/* ===================  footer part start  ==================== */
+
+#footer {
+  margin-top: 80px;
+  background: url(../images/footer_backgraond.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_header {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.footer_header h2 {
+  color: #ffe169;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.footer_header h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.footer_inner {
+  margin: 0 auto;
+}
+.footer_icon {
+  text-align: center;
+}
+.footer_icon a {
+  padding: 0px 10px;
+}
+.footer_icon i {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+.footer_menu {
+  text-align: center;
+}
+.footer_menu a {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.footer_icon {
+  text-align: center;
+}
+.footer_icon a {
+  padding: 0px 10px;
+}
+.footer_icon i {
+  font-size: 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  transition: all linear 0.4s;
+}
+.footer_icon i:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+}
+.subscribe {
+  margin: 50px 0;
+}
+.subscribe_btn {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe_btn .form-control {
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #d6d3cc3f;
+}
+.subscribe_btn ::placeholder {
+  color: #d6d3cc;
+}
+.subscribe_btn {
+  border: none;
+  min-height: 50px;
+  color: #fff;
+}
+.btn {
+  padding: 9px 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 104, 1) 0%,
+    rgba(255, 199, 65, 1) 34%,
+    rgba(255, 191, 52, 1) 55%,
+    rgba(255, 170, 20, 1) 100%
+  );
+  color: #ffff;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 20, 1) 0%,
+    rgba(255, 191, 52, 1) 34%,
+    rgba(255, 199, 65, 1) 55%,
+    rgba(255, 225, 104, 1) 100%
+  );
+}
+.subscribe h3 {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* ===================  footer part   end  ==================== */
+/* ===================  copy part start  ==================== */
+.copy_right {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.copy_right a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* ===================  copy part   end  ==================== */
